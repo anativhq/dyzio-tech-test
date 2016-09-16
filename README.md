@@ -61,7 +61,7 @@ Here is a low fidelity wireframe of the likely screen:
 
 ![wireframe](images/wireframe.png?raw=true)
 
-*Note: The Influencer API call should happen on the Node server and not the client browser. *
+*Note: The Influencer API call should happen on the Node server and not the client browser.*
 
 ### Stack Choice
 
