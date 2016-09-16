@@ -61,6 +61,8 @@ Here is a low fidelity wireframe of the likely screen:
 
 ![wireframe](images/wireframe.png?raw=true)
 
+*Note: The Influencer API call should happen on the Node server and not the client browser. *
+
 ### Stack Choice
 
 I would suggest developing the web app in a popular Node.js stack such as MEAN or MERN.
@@ -77,9 +79,11 @@ Feel free to spend as much or as little time on the exercise as you like as long
 
 ### User Story
 
-As a **user running the application**
-I can **view a list of influencers in a user submitted query**
-So that **I know which influencers match that query**
+As a **User running the application**
+
+I can **Submit an advanced Influencer Query**
+
+So that **I can view a list of influencers match that query**
 
 
 #### Acceptance criteria
@@ -95,7 +99,9 @@ Please answer the following questions in a markdown file called `Answers to tech
 2. What was the most useful feature that was added to the latest version of your chosen language? Please include a snippet of code that shows how you've used it.
 3. Why did you select your chosen Node stack?
 4. What was the most useful feature of the Node stack you chose?
-5. Do you have any observations about the Influencer API? What improvements could/should be made to it?
+5. Do you have any observations about the Influencer API?
+6. What improvements could/should be made to it?
+7. Was this exercise clear and easy to understand? If not, how could it be clarified?
 
 
 
