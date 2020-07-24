@@ -59,7 +59,7 @@ Here is a low fidelity wireframe of the likely screen:
 Also build an influencer page that is loaded when the user clicks on an influencer in the table like the wireframe below.
 The page must have a back to list button that returns them to the list page. We will expect the list to stay loaded in the browser.
 
-![influencer-screen](images/influencer-screen?raw=true)
+![influencer-screen](images/influencer-screen.png?raw=true)
 
 
 ### Framework Choice
