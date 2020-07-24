@@ -108,6 +108,8 @@ So that **I can view the results table again**
 
 - For the known query (above), the correct results are returned
 - The required attributes of the influencer are displayed
+- The influencer screen runs on the correct URL i.e. `influencers/${influencerId]`
+- the back link works and another influencer can be selected
 
 
 
