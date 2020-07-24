@@ -2,17 +2,12 @@
 
 
 
-Thank you for taking the time to do our technical test. It consists of two parts:
+Thank you for taking the time to do our technical test.
 
 * [A coding test](#coding-test)
-* [A few technical questions](#technical-questions)
 
 Please submit your test as a zip file with any installation instructions in the body of your email.
 
-Please make this a **single** zip file containing:
-
-1. a single markdown file with the answers to the technical questions
-2. one folder containing the technical test
 
 ## Coding Test
 
@@ -61,23 +56,31 @@ Here is a low fidelity wireframe of the likely screen:
 
 ![wireframe](images/wireframe.png?raw=true)
 
-*Note: The Influencer API call should happen on the Node server and not the client browser.*
+Also build an influencer page that is loaded when the user clicks on an influencer in the table like the wireframe below.
+The page must have a back to list button that returns them to the list page. We will expect the list to stay loaded in the browser.
 
-### Stack Choice
+![influencer-screen](images/influencer-screen?raw=true)
 
-I would suggest developing the web app in a popular Node.js stack such as MEAN or MERN.
 
-I would also suggest using popular packages such as [Griddle](http://griddlegriddle.github.io/Griddle/) for the table. You should favour using open source packages where possible, rather than coding from scratch.
+### Framework Choice
+
+Please build the app in React, Next.js or Angular (in that order of preference).
+We expect the developer to use some kind of boilerplate to produce the app bundle (i.e. create-react-app)
+
+Please make the app look as good as possible (without getting involved in design). We expect the developer to use something like material-ui, semantic-ui or bootstrap to make the app look professional and presentable.
+
+Any unit testing will be very good - even if it is only testing shallow renders.
+
 
 ### Task requirements
 
 Feel free to spend as much or as little time on the exercise as you like as long as the following requirements have been met.
 
-- Please complete the user story below.
+- Please complete the user stories below.
 - Your code should compile and run in one step.
 - Feel free to use whatever frameworks / libraries / packages you like.
 
-### User Story
+### User Story 1
 
 As a **User running the application**
 
@@ -85,23 +88,26 @@ I can **Submit an advanced Influencer Query**
 
 So that **I can view a list of influencers match that query**
 
+### User Story 2
+
+As a **User viewing the list of influencer**
+
+I can **Click on an influencer to view their page**
+
+So that **I can view more info about that influencer**
+
+### User Story 3
+
+As a **User viewing the influencer page**
+
+I can **Click on the back link**
+
+So that **I can view the results table again**
 
 #### Acceptance criteria
 
 - For the known query (above), the correct results are returned
 - The required attributes of the influencer are displayed
-
-# Technical questions
-
-Please answer the following questions in a markdown file called `Answers to technical questions.md`.
-
-1. How long did you spend on the coding test? What would you add to your solution if you had more time? If you didn't spend much time on the coding test then use this as an opportunity to explain what you would add.
-2. What was the most useful feature that was added to the latest version of your chosen language? Please include a snippet of code that shows how you've used it.
-3. Why did you select your chosen Node stack?
-4. What was the most useful feature of the Node stack you chose?
-5. Do you have any observations about the Influencer API?
-6. What improvements could/should be made to it?
-7. Was this exercise clear and easy to understand? If not, how could it be clarified?
 
 
 
