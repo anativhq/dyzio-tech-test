@@ -82,28 +82,44 @@ Feel free to spend as much or as little time on the exercise as you like as long
 
 ### User Story 1
 
+```
 As a **User running the application**
 
 I can **Submit an advanced Influencer Query**
 
 So that **I can view a list of influencers match that query**
+```
 
 ### User Story 2
 
+```
 As a **User viewing the list of influencer**
 
 I can **Click on an influencer to view their page**
 
 So that **I can view more info about that influencer**
+```
 
 ### User Story 3
 
+```
+As a **User viewing the influencer page (i.e. /influencers/QpbE5rw4hw6gDzoNQ) **
+
+I can **Refresh the page using the browser**
+
+So that **I can see the same data and share it via the URL**
+```
+
+
+### User Story 4
+
+```
 As a **User viewing the influencer page**
 
 I can **Click on the back link**
 
 So that **I can view the results table again**
-
+```
 #### Acceptance criteria
 
 - For the known query (above), the correct results are returned
