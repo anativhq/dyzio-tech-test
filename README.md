@@ -101,7 +101,7 @@ Feel free to spend as much or as little time on the exercise as you like as long
 
 ### User Story 3
 
-> As a **User viewing the influencer page (i.e. /influencers/QpbE5rw4hw6gDzoNQ) **
+> As a **User viewing the influencer page (i.e. /influencers/QpbE5rw4hw6gDzoNQ)**
 > 
 > I can **Refresh the page using the browser**
 > 
