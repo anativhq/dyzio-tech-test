@@ -82,13 +82,13 @@ Feel free to spend as much or as little time on the exercise as you like as long
 
 ### User Story 1
 
-```
-As a **User running the application**
 
-I can **Submit an advanced Influencer Query**
+> As a **User running the application**
+> 
+> I can **Submit an advanced Influencer Query**
+> 
+> So that **I can view a list of influencers match that query**
 
-So that **I can view a list of influencers match that query**
-```
 
 ### User Story 2
 
