@@ -92,40 +92,37 @@ Feel free to spend as much or as little time on the exercise as you like as long
 
 ### User Story 2
 
-```
-As a **User viewing the list of influencer**
+> As a **User viewing the list of influencer**
+> 
+> I can **Click on an influencer to view their page**
+> 
+> So that **I can view more info about that influencer**
 
-I can **Click on an influencer to view their page**
-
-So that **I can view more info about that influencer**
-```
 
 ### User Story 3
 
-```
-As a **User viewing the influencer page (i.e. /influencers/QpbE5rw4hw6gDzoNQ) **
-
-I can **Refresh the page using the browser**
-
-So that **I can see the same data and share it via the URL**
-```
-
+> As a **User viewing the influencer page (i.e. /influencers/QpbE5rw4hw6gDzoNQ) **
+> 
+> I can **Refresh the page using the browser**
+> 
+> So that **I can see the same data and share it via the URL**
 
 ### User Story 4
 
-```
-As a **User viewing the influencer page**
+> As a **User viewing the influencer page**
+> 
+> I can **Click on the back link**
+> 
+> So that **I can view the results table again**
 
-I can **Click on the back link**
 
-So that **I can view the results table again**
-```
 #### Acceptance criteria
 
 - For the known query (above), the correct results are returned
 - The required attributes of the influencer are displayed
 - The influencer screen runs on the correct URL i.e. `influencers/${influencerId]`
 - the back link works and another influencer can be selected
+- ALL user stories are satisfied
 
 
 
